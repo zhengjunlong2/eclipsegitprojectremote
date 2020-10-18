@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="146,94" size="555,387">
+    <action name="StudentAdd" location="5,39" size="150,40">
+      <result name="Success">
+        <resourceEdge source="Success" routing="0" target="StudentList.jsp" />
+      </result>
+      <result name="Error">
+        <resourceEdge source="Error" routing="0" target="Error.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="StudentList.jsp" path="/StudentList.jsp" location="0,0" size="150,55" />
+  <webResource name="Error.jsp" path="/Error.jsp" location="0,0" size="150,55" />
+</Struts2Diagram>
+
